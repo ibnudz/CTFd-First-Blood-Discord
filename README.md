@@ -24,14 +24,8 @@ You can customise the announcement template in `config.py` as well.
 # Docker tutorial
 
 ## How to Stop All Docker Containers
-    ```
     docker kill $(docker ps -q)
-    ```
 ## How to Remove All Docker Containers
-    ```
     docker rm $(docker ps -a -q)
-    ```
 ## How To Remove All Docker Images
-    ```
     docker rmi $(docker images -q)
-    ```
